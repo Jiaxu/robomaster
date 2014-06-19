@@ -6,15 +6,36 @@
 	<meta http-equiv="cache-control" content="no-store, must-revalidate">
 	<meta http-equiv="expires" content="wed, 26 feb 1997 08:21:57 gmt">
 	<meta http-equiv="expires" content="0">
+	<meta name="viewport" content="width=1140">
 	<meta name="author" content="jia.xu">
 	<meta name="keywords" content="CreateDJI" />
 	<meta name="description" content="CreateDJI" />
 	<title>深港机器人创新夏令营</title>
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="css/style.css">
+	<!-- Avoid IE that lte 7 -->
+	<script>
+        var ua = window.navigator.userAgent,
+            IEReg = /MSIE (\d+)/,
+            IEVersion = ua.match(IEReg) ? ~~ua.match(IEReg)[1] : 100,
+            IDevice = /(iPhone|iPad|iPod)/i,
+            ADevice = /(Android)/i,
+            UcDevice = /(UCBrowser)/i,
+            isIDevice = IDevice.test(ua),
+            isADevice = ADevice.test(ua),
+            isUcDevice = UcDevice.test(ua);
+        if(IEVersion <= 7) location.href = 'http://www.dji.com/upgrade';
+	</script>
 </head>
 <body class="index">
 
 	<div class="header">
+		<div class="container">
+			<span class="logo"><img src="img/logo.png"></span>
+		</div>
+	</div>
+
+	<div class="banner">
 		<div class="container">
 
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -50,7 +71,7 @@
 			    <span class="spr glyphicon glyphicon-chevron-right"></span>
 			  </a>
 			</div>
-			<span class="action-title"></span>
+			<span class="action-title" style="top:405px;"></span>
 			<a class="spr action-btn" href="enter.html">我要报名</a>
 		</div>
 	</div>
@@ -63,13 +84,15 @@
 			<div class="title">
 				Engineer 未来的超级明星
 				<span>夏令营活动宣传视频</span>
-				<a id="publicity_video_play" class="video-play"><i class="spr icon-video-play"></i>Play the video</a>
+				<a id="publicity_video_play" class="video-play"><i class="icon-video-play"></i><span class="btn-text">Play the video</span></a>
 			</div>
 			<div class="text">
-				<p>去年盛夏，一群对机器人事业怀着无限热情的“筑梦者”从全国各地纷至沓来，集聚DJI，只为同一个梦想：实现机器人的对抗竞技，打造一个机器人NBA联盟。</p>满怀激情、目标明确、内心纯粹的他们扬帆起航，勇敢为实现梦想而不断努力尝试。一年后的仲夏，更多继承着前辈心愿的“圆梦者”再次为他们执着而坚定的目标奔赴DJI。“我们是游戏规则的制定者”新的口号不仅更加坚定了信念也无时不刻地透露着这群人由之前的尝试探索向<p>现在自信成熟的转变。</p>
-				<p>在这里，我们还你一颗最纯粹的心，秉承最独特的想法，恣肆最不羁的青春；</p>
-				<p>希望凭借着与生俱来的不服输与对机器人事业的无限热爱，坚持梦想，在享受这段旅途快乐的同时，开启那扇通往机器人世界的大门，找寻真正属于自己的那片天。</p>
-				<p>一场前所未有的机械风暴将会席卷这个夏天，施展才华，自信飞扬，你就是Robot Super Star！全国机械精英都在这里，愿意接受挑战吗？够胆你就来！成为游戏的主宰，规则的制定者！</p>
+				<P>去年盛夏，一群对机器人事业饱含热情的“筑梦者”从全国各地纷至沓来，集聚DJI，只为同一个梦想：实现机器人的对抗竞技，打造一个全新的机器人平台。</P>
+				<P>一年后的夏天，更多秉持同样想法的“圆梦者”再次为了他们执着而坚定的目标奔赴DJI。</P>
+				<P>“我们是游戏规则的制定者”新口号不仅使他们的信念更加坚定，也让我们看到了这群充满激情的小伙伴由之前的生涩向现在自信成熟的转变。</P>
+				<P>希望凭借与生俱来的不服输与对机器人事业的无限热爱，坚持梦想，勇往直前，在享受这段旅途快乐的同时，开启那扇机器人世界的大门，找寻真正属于自己的那片天。</P>
+				<P>在这里，我们还你一颗最纯粹的心，秉承最独特的想法，恣肆最不羁的青春；</P>
+				<P>现在向所有散落在全国的RoboMasters发出讯息，我们在这里，我们在等你……</P>
 			</div>
 
 		</div>
@@ -81,7 +104,7 @@
 			<div class="time-line-bg"><img src="img/time-line.png"></div>
 			<div class="title">时间计划</div>
 			<div class="step step-1"><span class="time">6月9日 - 6月30日</span><span class="txt">报  名</span></div>
-			<div class="step step-2"><span class="time">7月7日</span><span class="txt">网上公布入选人员名单</span></div>
+			<div class="step step-2"><span class="time">7月7日</span><span class="txt">公布入选人员名单</span></div>
 			<div class="step step-3"><span class="time">7月21日 - 8月22日</span><span class="txt">夏令营</span></div>
 
 		</div>
@@ -90,12 +113,34 @@
 	<div class="action-info">
 		
 		<div class="container">
-			<ul class="txt-line">
-				<li class="cell cell-1"><span class="tit">地点</span>香港科技大学、深圳市大疆创新科技有限公司</li>
-				<li class="cell cell-2"><span class="tit">报名条件</span>香对机器人制作有兴趣、动手能力强的高年级本科生及研究生，有竞赛经历者优先。</li>
-				<li class="cell cell-3"><span class="tit">报名方式</span>网页在线报名，或者发送邮件到summercamp@dji.com</li>
-				<li class="cell cell-4"><span class="tit">联系人</span>XXX<br/>0755-XXXXXXX转XXX</li>
-			</ul>
+			<!-- <ul class="txt-line">
+				<li class="cell cell-1"><span class="tit">地点</span>深圳市大疆创新科技有限公司</li>
+				<li class="cell cell-2"><span class="tit">报名条件</span>对机器人制作有兴趣、动手能力强的高年级本科生及研究生，有竞赛经历者优先。</li>
+				<li class="cell cell-3"><span class="tit">报名方式</span>网页在线报名，或者发送邮件到robomasters@dji.com</li>
+				<li class="cell cell-4"><span class="tit">报名咨询方式</span>咨询电话：18219177756 <br/>咨询QQ：2880600202</li>
+			</ul> -->
+			<div class="text">
+				<p><b>活动信息</b></p>
+				<p>内容：5人组成一队，设计组装智能机器人战车，最后开展对抗赛。</p>
+				<p>地点：深圳</p>
+				<p>主办方：<a href="http://weibo.com/DJIChina" target="_blank">@DJI大疆创新</a></p>
+				<p>报名条件：对机器人制作有兴趣、动手能力强的全日制本科生及研究生，有竞赛经历者优先。 </p>
+				<br>
+				<p><b>比赛奖励</b></p>
+				<p>夏令营机器人对抗赛</p>
+				<p>冠军：Phantom 2 Vision+（5台）及 现金8万人民币</p>
+				<p>亚军：Phantom 2 Vision+（5台）及 现金5万人民币</p>
+				<p>季军：Phantom 2 Vision+（5台）及 现金4万人民币</p>
+				<br>
+				<p><b>其他福利</b></p>
+				<p>火车80%，飞机40%路费报销/往返（上限1200元）</p>
+				<p>餐费补贴300元/周</p>
+				<p>四星级酒店（金晖酒店）/ 全程</p>
+				<p>精彩活动（港科大教授授课、香港游、航拍体验、海边游玩等）/每周</p>
+				<p>价值2万元的机器人战车 1-3 台/队（5人）</p>
+				<br>
+				<p>总价值150万人民币的奖金奖品，只为寻找最拔尖的你！</p>
+			</div>
 		</div>
 
 	</div>
@@ -112,14 +157,51 @@
 					<strong>香港科技大学教授专题授课（每周一）</strong>
 					授课师资：<br />
 					李泽湘，教授，IEEE Fellow，主要从事机器人、运动控制和制造科学等领域的研究；<br />
-					施凌，助理教授，主要从事网络传感、控制与优化及信号处理等领域的研究；<br />
-					宗光华，教授，博士生导师，IFToMM 中国分会委员，主要从事宏-微机械电子系统、自主移动机器人等领域的研究。<br />
+					权龙，教授，IEEE Fellow，主要从事3D重建、视觉几何和基于图像的建模等领域的研究；<br />
+					丘立，教授，IEEE Fellow，IFAC Fellow，主要从事系统、控制、信息论及信息技术的数学方法等领域的研究；<br />
+					施凌，助理教授，主要从事网络传感、控制与优化及信号处理等领域的研究。<br />
 				</p>
 				<p>
 					<strong>机器人project制作（每周二至周五）</strong>
 					最先进的科学技术为你全线开通<br />
 					数以千计的软硬件设施任由你来操控<br />
 				</p>
+				<p>
+					<strong>智能机器人战车对抗赛</strong>
+					成员组成：5人一队，其中包括2名机械设计、2名电控、1名视觉。<br />
+					组队：按特长及年级进行搭配<br />
+				</p>
+				<div class="table-warp">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					    <tr align="center">
+					        <td align="center" width="50">组别</td>
+					        <td width="190">任务</td>
+					        <td>需学习技能</td>
+					        <td>提供的器材元件</td>
+					    </tr>
+					    <tr>
+					        <td align="center">机械方向</td>
+					        <td align="left" valign="center">开发一个两轴云台及摩擦轮发射装置</td>
+					        <td align="left" valign="top">理论方面：伺服电机的选型和位置伺服系统设计；双轴自稳定伺服云台的设计；<br />
+					        工程方面：Solidworks/Pro-E、Matlab计算。</td>
+					        <td align="left" valign="top">电机、编码器、robomasters样机战车</td>
+					    </tr>
+					    <tr>
+					        <td align="center">电控方向</td>
+					        <td align="left" valign="center">云台控制系统及全方位移动底盘的控制</td>
+					        <td align="left" valign="top">理论方面：PMSM无刷直流伺服电机的位置、速度电流三环伺服运动控制；炮弹轨迹规划与落点预测；云台视觉瞄准与手眼协调;<br />
+					        工程方面：先进PID控制、Matlab。</td>
+					        <td align="left" valign="top">PC、Cortex-M3单片机（可选）、电机驱动</td>
+					    </tr>
+					    <tr>
+					        <td align="center">视觉方向</td>
+					        <td align="left" valign="center">自动瞄准射击系统</td>
+					        <td align="left" valign="top">理论方面：相机的几何模型与标定；图像处理基础；模式识别基础；目标追踪与运动估计基础；<br>
+					        工程方面：Matlab图像处理、OpenCV软件包。</td>
+					        <td align="left" valign="top">摄像头、PC</td>
+					    </tr>
+					</table>
+				</div>
 				<p>
 					<strong>户外素质拓展（每周六）</strong>
 					HKUST参观，与前沿科技腹地零距离；<br />
@@ -129,15 +211,17 @@
 			<div class="content faq">
 				<dl>
 					<dt>1.	报名参加夏令营对专业有要求吗？</dt>
-					<dd>答：同学你好，本次夏令营面向的群体主要是对机器人制作有兴趣、动手能力强的全日制高年级本科生（三、四年级）及研究生。</dd>
+					<dd>答：本次夏令营面向的群体主要是对机器人制作有兴趣、动手能力强的全日制高年级本科生及研究生。</dd>
 					<dt>2.	我在哪里可以看到我的申请状态？</dt>
-					<dd>答：同学你好，正常情况提交报名表后会提示你“申请已提交”，工作人员筛选后，会于7月7日在官方网页上公布入选人员名单。</dd>
+					<dd>答：正常情况提交报名表后会提示你“申请已提交”，工作人员筛选后，会于7月7日在官方网页上公布入选人员名单。</dd>
 					<dt>3.	夏令营的吃住状况如何？</dt>
-					<dd>答：夏令营期间，主办方全程提供住宿（7月19日至8月24日），参加夏令营的同学无需携带被褥。伙食补贴标准为40元/人/天（不包含周六和周日），活动结束前，以现金方式发放给各位同学。</dd>
+					<dd>答：夏令营期间，主办方全程提供住宿（7月19日至8月24日），参加夏令营的同学无需携带被褥。伙食补贴标准为30元/人/天（不包含周六和周日），活动结束前，以现金方式发放给各位同学。</dd>
 					<dt>4.	夏令营介绍中提到去香港，港澳通行证是否需要提前办理？</dt>
-					<dd>答：同学你好，夏令营期间，主办方将组织各位同学到香港进行一系列活动，故需提前办理港澳通行证。夏令营开始后还未拿到通行证的同学，视为主动放弃香港地区活动。</dd>
+					<dd>答：夏令营期间，主办方将组织各位同学到香港进行一系列活动，故需提前办理港澳通行证。夏令营开始后还未拿到通行证的同学，视为主动放弃香港地区活动。</dd>
 					<dt>5.	参加夏令营的路费是我们自己承担么？</dt>
-					<dd>答：同学你好，本次夏令营活动交通费补贴标准为：来程（XX地→深圳）单程车票：火车票补贴票价的80%，飞机票补贴票价的40%，补贴上限均为600元（RMB）；需要补贴的同学请保管好自己的火车票或机票行程单，到公司之后有我们统一处理；回程车票不予补助。</dd>
+					<dd>答：本次夏令营活动交通费补贴标准为：来程（XX地→深圳）单程车票：火车票补贴票价的80%，飞机票补贴票价的40%，补贴上限均为600元（RMB）；需要补贴的同学请保管好自己的火车票或机票行程单，到公司之后有我们统一处理。</dd>
+					<dt>6.	参加夏令营需要我们自己携带电脑吗？</dt>
+					<dd>答：本次夏令营会统一给大家配备电脑，建议大家不用自带电脑了。机械及电路的必备工具也会给大家准备。</dd>
 				</dl>
 			</div>
 		</div>
@@ -150,7 +234,7 @@
 			<div class="title">
 				<span>精彩视频</span>
 				夏令营活动宣传视频<br />
-				历届精彩视频活动剪辑<br />
+				ROBOMASTERS宣传视频<br />
 			</div>
 			<ul class="video-list">
 				<li class="video-cell">
@@ -158,14 +242,14 @@
 						<img src="img/video_1.jpg" alt="">
 						<span class="spr video-play-btn"></span>
 					</a>
-					<p>历届精彩视频活动剪辑</p>
+					<p>夏令营活动宣传视频</p>
 				</li>
 				<li class="video-cell">
 					<a id="video_link_2" class="video-link">
 						<img src="img/video_2.jpg" alt="">
 						<span class="spr video-play-btn"></span>
 					</a>
-					<p>历届精彩视频活动剪辑</p>
+					<p>ROBOMASTERS宣传视频</p>
 				</li>
 			</ul>
 		</div>
@@ -173,61 +257,72 @@
 	</div>
 
 	<div class="footer">
-
-		<div class="container">
-			<ul>
-				<li>
-					<span>主办单位</span>
-					团中央学校部<br />
-					全国学联秘书处作为大赛主办单位<br />
-					中国青少年科技创新奖励基金
-				</li>
-				<li>
-					<span>协办单位</span>
-					香港科技大学<br />
-					教育部高等学校机械类专业教学指导委员会<br />
+		<div class="top">
+			<div class="container">
+				<dl class="left">
+					<dt>请关注ROBOMASTERS官方社交媒体</dt>
+					<dd>
+						<a href="http://weibo.com/u/5139757331" target="_blank"><span class="logos-weibo"></span></a>
+						<a href="http://t.qq.com/RoboMasters" target="_blank"><span class="logos-tqq"></span></a>
+						<a href="http://tieba.baidu.com/f?kw=robomasters&fr=home" target="_blank"><span class="logos-baidu"></span></a>
+					</dd>
+				</dl>
+				<dl class="right">
+					<dt>全国大学生机器人科技创新营</dt>
+					<dd>如您对此次夏令营活动还有其他疑问<br />请发送邮件至 <a class="mailto" href="mailto:robomasters@dji.com">robomasters@dji.com</a> 进行咨询</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="bot">
+			<div class="container">
+				<div class="footer-links">
+					团中央学校部
+					<span>|</span>    
+					全国学联秘书处
+					<span>|</span>    
+					教育部高等学校机械类专业教学指导委员会
+					<span>|</span>    
 					教育部高等学校计算机类专业教学指导委员会
-				</li>
-				<li>
-					<span>承办单位</span>
-					深圳市大疆创新科技有限公司
-				</li>
-			</ul>
+					<span>|</span>    
+					香港科技大学
+				</div>
+				<p class="copy-right">Copyright &copy; 2014 ROBOMASTERS. ROBOMASTERS版权所有</p>
+			</div>
 		</div>
 
 	</div>
 
-<div class="pop-mask"></div>
+	<div class="pop-mask"></div>
 
-<div id="publicity_video" class="pop normal" style="top:100px;">
-	<a class="spr pop-close"></a>
-	<div class="pop-title">
-		Engineer 未来的超级明星
+	<div id="publicity_video" class="pop normal" style="display:none;top:50px;">
+		<a class="spr pop-close"></a>
+		<div class="pop-title">
+			Engineer 未来的超级明星
+		</div>
+		<div class="pop-cont">
+			
+		</div>
 	</div>
-	<div class="pop-cont">
-		<embed src="http://player.youku.com/player.php/sid/XNjk1MTI1NjEy/v.swf" allowFullScreen="true" quality="high" width="100%" height="572" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
-	</div>
-</div>
 
-<div id="video_show_1" class="pop normal" style="top:100px;">
-	<a class="spr pop-close"></a>
-	<div class="pop-title">
-		历届精彩视频活动剪辑
-	</div>
-	<div class="pop-cont">
-		<embed src="http://player.youku.com/player.php/sid/XNjk1MTI1NjEy/v.swf" allowFullScreen="true" quality="high" width="100%" height="572" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
-	</div>
-</div>
+	<div id="video_show_1" class="pop normal" style="display:none;top:50px;">
+		<a class="spr pop-close"></a>
+		<div class="pop-title">
+			夏令营活动宣传视频
+		</div>
+		<div class="pop-cont">
 
-<div id="video_show_2" class="pop normal" style="top:100px;">
-	<a class="spr pop-close"></a>
-	<div class="pop-title">
-		历届精彩视频活动剪辑
+		</div>
 	</div>
-	<div class="pop-cont">
-		<embed src="http://player.youku.com/player.php/sid/XNjk1MTI1NjEy/v.swf" allowFullScreen="true" quality="high" width="100%" height="572" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
+	<div id="video_show_2" class="pop normal" style="display:none;top:50px;">
+		<a class="spr pop-close"></a>
+		<div class="pop-title">
+			ROBOMASTERS宣传视频
+		</div>
+		<div class="pop-cont">
+
+		</div>
 	</div>
-</div>
 
 </body>
 
@@ -236,8 +331,8 @@
 <script type="text/javascript">
 	
 	$(document).ready(function(){
-		$('.pop-mask').hide();
-		$('.pop').hide();
+		$('.pop-mask').css('display', 'none');
+		$('.pop').css('display', 'none');
 
 		// tab切换
 		$('.js_tab_arrange').click(function() {
@@ -251,20 +346,45 @@
 
 		//  弹层展示
 		$('#publicity_video_play').click(function() {
-			$('.pop-mask').show();
-			$('#publicity_video').show();
+			$('.pop-mask').css('display', 'block');
+			$('#publicity_video').css('display', 'block');
+			if (isIDevice || !isUcDevice && isADevice ) {
+				$('#publicity_video .pop-cont').append('<video src="http://v.youku.com/player/getM3U8/vid/XNzE3OTA4Mjg4/type/flv/ts/v.m3u8" width="800" height="400" controls="controls"></video>');
+			} else{
+				$('#publicity_video .pop-cont').append('<embed src="http://player.youku.com/player.php/sid/XNzE3OTA4Mjg4/v.swf" allowFullScreen="true" quality="high" width="100%" height="510" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>');
+			};
+
+			
 		});
 		$('#video_link_1').click(function() {
-			$('.pop-mask').show();
-			$('#video_show_1').show();
+			$('.pop-mask').css('display', 'block');
+			$('#video_show_1').css('display', 'block');
+			if (isIDevice || !isUcDevice && isADevice ) {
+				$('#video_show_1 .pop-cont').append('<video src="http://v.youku.com/player/getM3U8/vid/XNzE3OTA4Mjg4/type/flv/ts/v.m3u8" width="800" height="400" controls="controls"></video>');
+			} else{
+				$('#video_show_1 .pop-cont').append('<embed src="http://player.youku.com/player.php/sid/XNzE3OTA4Mjg4/v.swf" allowFullScreen="true" quality="high" width="100%" height="510" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>');
+			};
+			
 		});
 		$('#video_link_2').click(function() {
-			$('.pop-mask').show();
-			$('#video_show_2').show();
+			$('.pop-mask').css('display', 'block');
+			$('#video_show_2').css('display', 'block');
+			if (isIDevice || !isUcDevice && isADevice ) {
+				$('#video_show_2 .pop-cont').append('<video src="http://v.youku.com/player/getM3U8/vid/XNzE3OTAwNDUy/type/flv/ts/v.m3u8" width="800" height="400" controls="controls"></video>');
+			} else{
+				$('#video_show_2 .pop-cont').append('<embed src="http://player.youku.com/player.php/sid/XNzE3OTAwNDUy/v.swf" allowFullScreen="true" quality="high" width="100%" height="510" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>');
+			};
+			
 		});
 		$('.pop-close').click(function() {
-			$('.pop').hide();
-			$('.pop-mask').hide();
+			$('.pop').css('display', 'none');
+			$('.pop-mask').css('display', 'none');
+			$('.pop-cont').empty();
+		});
+		$('.pop-mask').click(function() {
+			$('.pop').css('display', 'none');
+			$('.pop-mask').css('display', 'none');
+			$('.pop-cont').empty();
 		});
 
 	});
