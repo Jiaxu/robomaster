@@ -292,7 +292,7 @@
 
 	</div>
 
-	<div class="pop-mask"></div>
+	<div class="pop-mask" style="display:none"></div>
 
 	<div id="publicity_video" class="pop normal" style="display:none;top:50px;">
 		<a class="spr pop-close"></a>
@@ -331,22 +331,21 @@
 <script type="text/javascript">
 	
 	$(document).ready(function(){
-		$('.pop-mask').css('display', 'none');
-		$('.pop').css('display', 'none');
-
+		
 		// tab切换
 		$('.js_tab_arrange').click(function() {
-			$('.arrange_faq').removeClass('active-faq')
+			$('.arrange_faq').removeClass('active-faq');
 			$('.arrange_faq').addClass('active-arrange');
 		});
 		$('.js_tab_faq').click(function() {
-			$('.arrange_faq').removeClass('active-arrange')
+			$('.arrange_faq').removeClass('active-arrange');
 			$('.arrange_faq').addClass('active-faq');
 		});
 
 		//  弹层展示
 		$('#publicity_video_play').click(function() {
 			$('.pop-mask').css('display', 'block');
+			// $('body').append('<div class="pop-mask"></div>');
 			$('#publicity_video').css('display', 'block');
 			if (isIDevice || !isUcDevice && isADevice ) {
 				$('#publicity_video .pop-cont').append('<video src="http://v.youku.com/player/getM3U8/vid/XNzE3OTA4Mjg4/type/flv/ts/v.m3u8" width="800" height="400" controls="controls"></video>');
@@ -358,6 +357,7 @@
 		});
 		$('#video_link_1').click(function() {
 			$('.pop-mask').css('display', 'block');
+			// $('body').append('<div class="pop-mask"></div>');
 			$('#video_show_1').css('display', 'block');
 			if (isIDevice || !isUcDevice && isADevice ) {
 				$('#video_show_1 .pop-cont').append('<video src="http://v.youku.com/player/getM3U8/vid/XNzE3OTA4Mjg4/type/flv/ts/v.m3u8" width="800" height="400" controls="controls"></video>');
@@ -368,6 +368,7 @@
 		});
 		$('#video_link_2').click(function() {
 			$('.pop-mask').css('display', 'block');
+			// $('body').append('<div class="pop-mask"></div>');
 			$('#video_show_2').css('display', 'block');
 			if (isIDevice || !isUcDevice && isADevice ) {
 				$('#video_show_2 .pop-cont').append('<video src="http://v.youku.com/player/getM3U8/vid/XNzE3OTAwNDUy/type/flv/ts/v.m3u8" width="800" height="400" controls="controls"></video>');
